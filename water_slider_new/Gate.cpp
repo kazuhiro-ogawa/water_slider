@@ -14,10 +14,10 @@ void Gate::init(){
   servo.write(0);           //サーボモータの角度を0度に設定
 }
 
-void Gate::gate_cls(){
+void Gate::cls(){
   servo.write(0);          //サーボモータの角度を0度に設定
 }
 
-void Gate::gate_opn(){
+void Gate::opn(){
   servo.write(90);          //サーボモータの角度を90度に設定
 }

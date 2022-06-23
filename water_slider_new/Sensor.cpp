@@ -5,8 +5,8 @@
 Sensor::Sensor(int echo_pin, int trig_pin){
   echo = echo_pin;
   trig = trig_pin;
-  pinMode(echo_pin,INPUT);
-  pinMode(trig_pin,OUTPUT);
+  pinMode(echo,INPUT);
+  pinMode(trig,OUTPUT);
 }
 
 float Sensor::measure_distance(){
